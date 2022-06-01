@@ -4,8 +4,8 @@ Program that returns information about the world time zone.
 
 ## Getting the code
 
-Prior to running this chart, you should clone this project to a local directory.
-`git clone git.abc`
+Prior to running, you should clone this project to a local directory.
+`https://github.com/gitrajit/worldtimezone.git`
 
 Directory Structure
 -----------
@@ -92,10 +92,24 @@ gitrajit@DESKTOP-600EAN8:/mnt/d/rackspace$ python3 worldtimezone.py --offset 2
 2022-06-01 18:18:38,758  worldtimezone  INFO  **************************************************************
 gitrajit@DESKTOP-600EAN8:/mnt/d/rackspace$
 ```
+## Pylint result (pylint 2.12.2)
+```
+pylint worldtimezone.py
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 
-  
+pylint test/worldtimezonetest.py
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+```
+## Unit Testing
+```
+gitrajit@DESKTOP-600EAN8:/mnt/d/rackspace$ python3 -m unittest test/worldtimezonetest.py
+----------------------------------------------------------------------
+Ran 3 tests in 0.205s
 
-
+OK
+```
 
 License
 -------
