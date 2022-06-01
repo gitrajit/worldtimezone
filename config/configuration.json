@@ -1,0 +1,7 @@
+{
+    "url":"https://raw.githubusercontent.com/dmfilipenko/timezones.json/master/timezones.json",
+    "download_path":"./data",
+    "filename": "timezones.json",
+    "logfilename": "worldtimezone.log",
+    "logformat": "%(asctime)s  %(name)s  %(levelname)s  %(message)s"
+}
