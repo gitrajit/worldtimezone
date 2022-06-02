@@ -42,7 +42,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2) Python worldtimezone.py --help to see all the arguments
+2) Execute Python worldtimezone.py --help to see all the arguments.
 ```
 usage: worldtimezone.py [-h] [--match MATCH] [--offset OFFSET]
 
@@ -51,7 +51,7 @@ optional arguments:
   --match MATCH    Display only information about time zones whose values match the string supplied to this argument.
   --offset OFFSET  It will only display time zones matching this offset
 ```
-3) Execute worldtimezone.py without argument
+3) Execute python worldtimezone.py without argument to display all the world time.
 ```
 python worldtimezone.py
 2022-06-01 18:14:13,478  worldtimezone  INFO  Downloading world time zone format json file
@@ -64,7 +64,8 @@ python worldtimezone.py
  *****************************************************************
 ```
 4) Excecute with arguments:
-**--match**
+
+**--match** 
 ```
 python3 worldtimezone.py --match "India Standard time"
 2022-06-01 18:17:39,900  worldtimezone  INFO  Downloading world time zone format json file
