@@ -1,7 +1,7 @@
 """
-# world clock
-###########
-#import sys
+Desc: program that returns information about the world time zones
+Author: Gitrajit@gmail.com
+Created: 01-06-2022
 """
 import sys
 import argparse
@@ -15,7 +15,7 @@ _CONFIG_FILE = './config/configuration.json'
 
 def set_logging(logfile, logformat):
     """
-    Setting logging configuration
+    Function to set logging configuration
     :param: logfile: <string> log file name
     :param: logformat: format for logging
     :return: logging object
